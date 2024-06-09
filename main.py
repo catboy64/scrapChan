@@ -19,4 +19,4 @@ page = requests.get(URL)
 soup = BeautifulSoup(page.content, "html.parser")
 
 
-get_page.get_page(soup)
+get_page.get_page(soup, URL)
